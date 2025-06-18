@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(236, 213, 150);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.container {
+    background-color: blue;
+}
+h1{
+text-align: center;
+color:rgb(240, 235, 235);
+}
+h2{
+    text-align: center;
+    color: rgb(247, 245, 245);
+}
+p{
+    text-align: justify;
+    color: black;
+}
+h3{
+    text-align: center;
+    color: brown;
+}
+h4{
+    text-align: center;
+    color: brown;
+}
+
+.slider {
+    width: 100%;
+    min-height: 70vh;
+    aspect-ratio: 16/9;
+    background: rgb(90, 84, 75);
+    position: relative;
+    margin-top: 80px;
+}
+.slider-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(85%);
+}
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+}
+.navbar {
+  background-color: brown;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  z-index: 999;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style:none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: brown;
+}
+#mon-cv {
+            padding: 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        #mon-cv h2 {
+            color: brown;
+            margin-bottom: 25px;
+        }
+
+        .cv-viewer {
+            width: 100%;
+            height: 600px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden; 
+        }
+        #mescompetences {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#mescompetences h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 50px;
+    position: relative;
+}
